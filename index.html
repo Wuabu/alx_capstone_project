@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz</a>
+
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Subject</a>
+                <a href="#">Contact</a>
+                <a href="#">Help</a>
+            </nav>
+        </header>
+        
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>School Quiz</h1>
+
+                    <div class="quiz-header">
+                        <span>Quiz Website</span>
+                        <span class="header-score">Score: 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text"> What does HTML stand for?</h2>
+                    <div class="option-list">
+                        <!-- <div class="option"><span>ff</span></div>
+                        <div class="option"><span>55</span></div>
+                        <div class="option"><span>gg</span></div> -->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Quiz result</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Your score 0 out of 5</span>
+                    </div>
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home_content">
+                    <h1>Quiz Game</h1>
+                    <p>Welcome to the Quiz Game! This quiz will test your knowledge in various subjects. Are you ready to challenge yourself?</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>            
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1. Click on the "Start Quiz" button to begin the quiz. Once started, you will be presented with a series of questions.</span>
+        <span class="info">2. Read each question carefully and select the answer you believe is correct. Click on your chosen answer to submit it.</span>
+        <span class="info">3. After selecting an answer, you will receive immediate feedback indicating whether your answer was correct or incorrect.</span>
+        <span class="info">4. Your score will be calculated based on the number of correct answers you provide. Aim to achieve the highest score possible!</span>
+        <span class="info">5. If you're not satisfied with your score, feel free to retake the quiz. Click on the "Try Again" button to restart the quiz and challenge yourself to do better.</span>
+        <span class="info">6. Ready to explore more? Click on the "Go To Home" button to return to the main menu and discover other features of the quiz game.</span>
+
+
+        <div class="btn-group">
+            <button class="info-btn exit">Exit Quiz</button>
+            <a href="#" class="info-btn continue">Continue</a>
+        </div>
+    </div>
+    
+    <script src="/questions.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
